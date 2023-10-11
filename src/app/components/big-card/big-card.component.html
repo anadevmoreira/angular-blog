@@ -1,13 +1,16 @@
 <div class="container__big-card">
 <a href="#">
   <div class="big-card__image">
-      <img src="https://ychef.files.bbci.co.uk/1600x900/p0gjp4bw.webp" alt="hotel photo">
+      <img
+      src="{{ photoCover }}"
+      alt="hotel photo"
+      >
   </div>
   <div class="big-card__title">
-      <h1>A rainforest hotel in the clouds</h1>
+      <h1>{{ cardTitle }}</h1>
   </div>
   <div class="big-card__description">
-      <p>It's all about the location at the Ecuador's Mashpi Lodge. With just 2% of the Chocó Cloud Forest remaining, Ecuador's Mashpi Lodge brings a luxuriously innovative approach to its conservation by immersing guests in jungle adventures.</p>
+      <p>{{ cardDescription }}</p>
   </div>
 </a>
 </div>
