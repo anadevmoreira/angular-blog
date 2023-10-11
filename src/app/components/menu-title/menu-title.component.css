@@ -1,0 +1,14 @@
+
+.container__menu-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #CC0200;
+}
+
+.container__menu-title > hr {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
